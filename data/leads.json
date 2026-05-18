@@ -1,0 +1,76 @@
+{
+  "updatedAt": "2026-05-18",
+  "machinesInstalled": 0,
+  "leads": [
+    {
+      "fecha": "2026-05-12",
+      "contacto": "Elvis",
+      "local": "Barbillon",
+      "grupo": null,
+      "referido": "Juan Antonio",
+      "canal": "Email",
+      "estado": "Respondió",
+      "nextStep": "Avanzar hacia demo"
+    },
+    {
+      "fecha": "2026-05-12",
+      "contacto": "Andrea",
+      "local": "Gruppo Pulccinella",
+      "grupo": "8 locales",
+      "referido": "Moha — Aceites Únicos",
+      "canal": "WhatsApp",
+      "estado": "Contactado",
+      "nextStep": "Segundo toque — sin respuesta"
+    },
+    {
+      "fecha": "2026-05-12",
+      "contacto": "Javier",
+      "local": "Copa de Balón",
+      "grupo": "4 locales",
+      "referido": "Javier Ortega",
+      "canal": "WhatsApp",
+      "estado": "Contactado",
+      "nextStep": "Segundo toque — sin respuesta"
+    },
+    {
+      "fecha": "2026-05-13",
+      "contacto": "David",
+      "local": "Divina Dolores",
+      "grupo": null,
+      "referido": "Visita en persona",
+      "canal": "Email",
+      "estado": "Contactado",
+      "nextStep": "Follow-up esta semana"
+    },
+    {
+      "fecha": "2026-05-13",
+      "contacto": "Paco",
+      "local": "Grupo Cachivache",
+      "grupo": null,
+      "referido": "Begoña (Salino)",
+      "canal": "Email",
+      "estado": "Contactado",
+      "nextStep": "Follow-up esta semana"
+    },
+    {
+      "fecha": "2026-05-13",
+      "contacto": "Alberto",
+      "local": "Grupo En Copa de Balón",
+      "grupo": null,
+      "referido": "Paco sumiller (Pozuelo)",
+      "canal": "Email",
+      "estado": "Contactado",
+      "nextStep": "Follow-up esta semana"
+    },
+    {
+      "fecha": "2026-05-13",
+      "contacto": "Zohra",
+      "local": "Grupo Salvaje",
+      "grupo": null,
+      "referido": "Llamada telefónica",
+      "canal": "Email",
+      "estado": "Contactado",
+      "nextStep": "Confirmar demo esta semana · trial 1 semana sin cargo"
+    }
+  ]
+}

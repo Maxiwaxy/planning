@@ -1,0 +1,27 @@
+{
+  "week": "W21",
+  "dates": "18–24 mayo 2026",
+  "updatedAt": "2026-05-18",
+  "areas": {
+    "chill-it": [
+      {"id": 1, "title": "Confirmar demo con Zohra — Grupo Salvaje", "status": "pendiente", "note": "Contactada 13/05 · trial 1 semana sin cargo"},
+      {"id": 2, "title": "Follow-up Paco — Grupo Cachivache", "status": "pendiente", "note": "Email 13/05 — segundo toque"},
+      {"id": 3, "title": "Follow-up Alberto — Grupo En Copa de Balón", "status": "pendiente", "note": "Email 13/05 — segundo toque"},
+      {"id": 4, "title": "Follow-up David — Divina Dolores", "status": "pendiente", "note": "Email 13/05 — segundo toque"},
+      {"id": 5, "title": "Avanzar con Elvis — Barbillon", "status": "pendiente", "note": "Ya respondió — próximo paso: demo"},
+      {"id": 6, "title": "Reactivar Andrea — Pulccinella (8 locales)", "status": "pendiente", "note": "Sin respuesta desde 12/05"},
+      {"id": 7, "title": "Reactivar Javier — Copa de Balón (4 locales)", "status": "pendiente", "note": "Sin respuesta desde 12/05"},
+      {"id": 8, "title": "Preparar incorporación Benja — 26 mayo", "status": "pendiente", "note": "Zona, KPIs, onboarding"}
+    ],
+    "trading": [
+      {"id": 9, "title": "Revisar candidatas demo MEXC", "status": "pendiente", "note": "S1-Donchian, S9-MeanRev, S6-DonchTAO, S4-BBSqueeze"},
+      {"id": 10, "title": "Configurar demo bot en BloFin", "status": "pendiente", "note": "demo-trading-openapi.blofin.com"}
+    ],
+    "personal": [
+      {"id": 11, "title": "Retomar rutina de entrenamiento", "status": "pendiente", "note": "Objetivo: -7 kg · 3 V11 pendientes en 2026"}
+    ],
+    "admin": [
+      {"id": 12, "title": "Revisión de avance semanal", "status": "pendiente", "note": "Cierre W21 — domingo 24 mayo"}
+    ]
+  }
+}
