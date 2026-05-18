@@ -2,26 +2,62 @@
   "week": "W21",
   "dates": "18–24 mayo 2026",
   "updatedAt": "2026-05-18",
-  "areas": {
-    "chill-it": [
-      {"id": 1, "title": "Confirmar demo con Zohra — Grupo Salvaje", "status": "pendiente", "note": "Contactada 13/05 · trial 1 semana sin cargo"},
-      {"id": 2, "title": "Follow-up Paco — Grupo Cachivache", "status": "pendiente", "note": "Email 13/05 — segundo toque"},
-      {"id": 3, "title": "Follow-up Alberto — Grupo En Copa de Balón", "status": "pendiente", "note": "Email 13/05 — segundo toque"},
-      {"id": 4, "title": "Follow-up David — Divina Dolores", "status": "pendiente", "note": "Email 13/05 — segundo toque"},
-      {"id": 5, "title": "Avanzar con Elvis — Barbillon", "status": "pendiente", "note": "Ya respondió — próximo paso: demo"},
-      {"id": 6, "title": "Reactivar Andrea — Pulccinella (8 locales)", "status": "pendiente", "note": "Sin respuesta desde 12/05"},
-      {"id": 7, "title": "Reactivar Javier — Copa de Balón (4 locales)", "status": "pendiente", "note": "Sin respuesta desde 12/05"},
-      {"id": 8, "title": "Preparar incorporación Benja — 26 mayo", "status": "pendiente", "note": "Zona, KPIs, onboarding"}
-    ],
-    "trading": [
-      {"id": 9, "title": "Revisar candidatas demo MEXC", "status": "pendiente", "note": "S1-Donchian, S9-MeanRev, S6-DonchTAO, S4-BBSqueeze"},
-      {"id": 10, "title": "Configurar demo bot en BloFin", "status": "pendiente", "note": "demo-trading-openapi.blofin.com"}
-    ],
-    "personal": [
-      {"id": 11, "title": "Retomar rutina de entrenamiento", "status": "pendiente", "note": "Objetivo: -7 kg · 3 V11 pendientes en 2026"}
-    ],
-    "admin": [
-      {"id": 12, "title": "Revisión de avance semanal", "status": "pendiente", "note": "Cierre W21 — domingo 24 mayo"}
-    ]
-  }
+  "days": [
+    {
+      "date": "2026-05-18",
+      "label": "Lunes 18",
+      "tasks": [
+        {"title": "Follow-up Paco — Grupo Cachivache", "area": "chill-it", "status": "pendiente", "note": "Email 13/05 — segundo toque"},
+        {"title": "Follow-up Alberto — Grupo En Copa de Balón", "area": "chill-it", "status": "pendiente", "note": "Email 13/05 — segundo toque"},
+        {"title": "Follow-up David — Divina Dolores", "area": "chill-it", "status": "pendiente", "note": "Email 13/05 — segundo toque"},
+        {"title": "Reactivar Andrea — Pulccinella (8 locales)", "area": "chill-it", "status": "pendiente", "note": "WhatsApp — sin respuesta desde 12/05"},
+        {"title": "Reactivar Javier — Copa de Balón (4 locales)", "area": "chill-it", "status": "pendiente", "note": "WhatsApp — sin respuesta desde 12/05"},
+        {"title": "Confirmar demo con Zohra — Grupo Salvaje", "area": "chill-it", "status": "pendiente", "note": "Ofrecerle trial 1 semana sin cargo"}
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "label": "Martes 19",
+      "tasks": [
+        {"title": "Avanzar con Elvis — Barbillon", "area": "chill-it", "status": "pendiente", "note": "Ya respondió — cerrar demo"},
+        {"title": "Gestionar respuestas del lunes", "area": "chill-it", "status": "pendiente", "note": "Seguir conversaciones abiertas"}
+      ]
+    },
+    {
+      "date": "2026-05-20",
+      "label": "Miércoles 20",
+      "tasks": [
+        {"title": "Revisar candidatas demo MEXC", "area": "trading", "status": "pendiente", "note": "S1-Donchian BTC · S9-MeanRev BTC · S6-DonchTAO · S4-BBSqueeze TAO"}
+      ]
+    },
+    {
+      "date": "2026-05-21",
+      "label": "Jueves 21",
+      "tasks": [
+        {"title": "Demo Zohra — Grupo Salvaje", "area": "chill-it", "status": "pendiente", "note": "Si confirma el lunes · trial 1 semana"},
+        {"title": "Configurar demo bot en BloFin", "area": "trading", "status": "pendiente", "note": "demo-trading-openapi.blofin.com"}
+      ]
+    },
+    {
+      "date": "2026-05-22",
+      "label": "Viernes 22",
+      "tasks": [
+        {"title": "Preparar onboarding Benja", "area": "chill-it", "status": "pendiente", "note": "Incorporación 26/05 — zona, KPIs, primera semana"}
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "label": "Sábado 23",
+      "tasks": [
+        {"title": "Entrenamiento", "area": "personal", "status": "pendiente", "note": "Retomar rutina · objetivo -7 kg"}
+      ]
+    },
+    {
+      "date": "2026-05-24",
+      "label": "Domingo 24",
+      "tasks": [
+        {"title": "Cierre semanal W21", "area": "admin", "status": "pendiente", "note": "Revisión de avance + planning W22"}
+      ]
+    }
+  ]
 }
