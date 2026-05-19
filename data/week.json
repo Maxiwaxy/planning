@@ -1,32 +1,37 @@
 {
   "week": "W21",
   "dates": "18–24 mayo 2026",
-  "updatedAt": "2026-05-18",
+  "updatedAt": "2026-05-19",
   "days": [
     {
       "date": "2026-05-18",
       "label": "Lunes 18",
       "tasks": [
-        {"title": "Follow-up Paco — Grupo Cachivache", "area": "chill-it", "status": "pendiente", "note": "Email 13/05 — segundo toque"},
-        {"title": "Follow-up Alberto — Grupo En Copa de Balón", "area": "chill-it", "status": "pendiente", "note": "Email 13/05 — segundo toque"},
-        {"title": "Follow-up David — Divina Dolores", "area": "chill-it", "status": "pendiente", "note": "Email 13/05 — segundo toque"},
-        {"title": "Reactivar Andrea — Pulccinella (8 locales)", "area": "chill-it", "status": "pendiente", "note": "WhatsApp — sin respuesta desde 12/05"},
-        {"title": "Reactivar Javier — Copa de Balón (4 locales)", "area": "chill-it", "status": "pendiente", "note": "WhatsApp — sin respuesta desde 12/05"},
-        {"title": "Confirmar demo con Zohra — Grupo Salvaje", "area": "chill-it", "status": "pendiente", "note": "Ofrecerle trial 1 semana sin cargo"}
+        {"title": "Follow-up Paco — Grupo Cachivache", "area": "chill-it", "status": "pendiente", "note": "Sin respuesta — follow-up mañana si sigue sin contestar"},
+        {"title": "Follow-up Alberto — Grupo En Copa de Balón", "area": "chill-it", "status": "pendiente", "note": "Sin respuesta — follow-up mañana si sigue sin contestar"},
+        {"title": "Follow-up David — Divina Dolores", "area": "chill-it", "status": "pendiente", "note": "Sin respuesta"},
+        {"title": "Visita Andrea — Pulccinella (8 locales)", "area": "chill-it", "status": "completado", "note": "No estaba — suele estar ~12:30 en Caleido"},
+        {"title": "Reactivar Javier — Copa de Balón (4 locales)", "area": "chill-it", "status": "pendiente", "note": "Sin respuesta — follow-up mañana si sigue sin contestar"},
+        {"title": "Reunión Juan Carlos — Caña Golf + Grupo Pescador", "area": "chill-it", "status": "completado", "note": "Fue bien — demos agendadas esta semana"}
       ]
     },
     {
       "date": "2026-05-19",
       "label": "Martes 19",
       "tasks": [
-        {"title": "Avanzar con Elvis — Barbillon", "area": "chill-it", "status": "pendiente", "note": "Ya respondió — cerrar demo"},
-        {"title": "Gestionar respuestas del lunes", "area": "chill-it", "status": "pendiente", "note": "Seguir conversaciones abiertas"}
+        {"title": "Follow-up Elvis — Barbillon", "area": "chill-it", "status": "completado", "note": "Correo enviado — ofrecida demo en local"},
+        {"title": "Nuevo lead: Secret City Food (Marina)", "area": "chill-it", "status": "completado", "note": "7 locales (3 Madrid + 4 Barcelona) — reunión lun 26 mayo 11:00 en Secrets Caleido"},
+        {"title": "Correo Ernesto — Mercado San Cristóbal", "area": "chill-it", "status": "completado", "note": "Propuesta prueba 1 semana enviada"},
+        {"title": "Correo Marina — Secret City Food", "area": "chill-it", "status": "pendiente", "note": "Adjuntar PDF Mini Wine + confirmar reunión lun 26"}
       ]
     },
     {
       "date": "2026-05-20",
       "label": "Miércoles 20",
       "tasks": [
+        {"title": "Entrega máquina muestra — Caña Golf 10:30", "area": "chill-it", "status": "pendiente", "note": "Entrega máquina de muestra"},
+        {"title": "Demo Caña Golf 16:00", "area": "chill-it", "status": "pendiente", "note": "Reunión demostración funcionamiento"},
+        {"title": "Buscar a Andrea — Pulccinella", "area": "chill-it", "status": "pendiente", "note": "Si paso por Caleido — suele estar ~12:30"},
         {"title": "Revisar candidatas demo MEXC", "area": "trading", "status": "pendiente", "note": "S1-Donchian BTC · S9-MeanRev BTC · S6-DonchTAO · S4-BBSqueeze TAO"}
       ]
     },
@@ -34,7 +39,9 @@
       "date": "2026-05-21",
       "label": "Jueves 21",
       "tasks": [
-        {"title": "Demo Zohra — Grupo Salvaje", "area": "chill-it", "status": "pendiente", "note": "Si confirma el lunes · trial 1 semana"},
+        {"title": "Reunión Ernesto — Sisapo 11:30", "area": "chill-it", "status": "pendiente", "note": "Primera reunión"},
+        {"title": "Instalación máquina prueba — Grupo Pescador", "area": "chill-it", "status": "pendiente", "note": "Coordinar con Fran"},
+        {"title": "Follow-ups Salvaje, Copa de Balón, Cachivache", "area": "chill-it", "status": "pendiente", "note": "Si no responden hoy, preparar correos"},
         {"title": "Configurar demo bot en BloFin", "area": "trading", "status": "pendiente", "note": "demo-trading-openapi.blofin.com"}
       ]
     },
@@ -42,6 +49,8 @@
       "date": "2026-05-22",
       "label": "Viernes 22",
       "tasks": [
+        {"title": "Reunión Juan Carlos + Nico — Grupo Pescador 10:30", "area": "chill-it", "status": "pendiente", "note": "Revisión prueba de máquina"},
+        {"title": "Números descuento volumen Secret — con Nico", "area": "chill-it", "status": "pendiente", "note": "Llevar oferta escalonada para reunión lun 26 con Marina"},
         {"title": "Preparar onboarding Benja", "area": "chill-it", "status": "pendiente", "note": "Incorporación 26/05 — zona, KPIs, primera semana"}
       ]
     },
@@ -56,7 +65,7 @@
       "date": "2026-05-24",
       "label": "Domingo 24",
       "tasks": [
-        {"title": "Cierre semanal W21", "area": "admin", "status": "pendiente", "note": "Revisión de avance + planning W22"}
+        {"title": "Cierre semanal W21", "area": "admin", "status": "pendiente", "note": "Revisión de avance + planning W22 (incluye reunión Marina lun 26)"}
       ]
     }
   ]

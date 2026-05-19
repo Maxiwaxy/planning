@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18",
+  "updatedAt": "2026-05-19",
   "machinesInstalled": 0,
   "leads": [
     {
@@ -9,8 +9,8 @@
       "grupo": null,
       "referido": "Juan Antonio",
       "canal": "Email",
-      "estado": "Respondió",
-      "nextStep": "Avanzar hacia demo"
+      "estado": "Seguimiento enviado",
+      "nextStep": "Esperar respuesta al follow-up"
     },
     {
       "fecha": "2026-05-12",
@@ -19,8 +19,8 @@
       "grupo": "8 locales",
       "referido": "Moha — Aceites Únicos",
       "canal": "WhatsApp",
-      "estado": "Contactado",
-      "nextStep": "Segundo toque — sin respuesta"
+      "estado": "Contactado — visita fallida (suele estar ~12:30 en Caleido)",
+      "nextStep": "Reintentar visita presencial"
     },
     {
       "fecha": "2026-05-12",
@@ -30,7 +30,7 @@
       "referido": "Javier Ortega",
       "canal": "WhatsApp",
       "estado": "Contactado",
-      "nextStep": "Segundo toque — sin respuesta"
+      "nextStep": "Seguimiento pendiente"
     },
     {
       "fecha": "2026-05-13",
@@ -40,7 +40,7 @@
       "referido": "Visita en persona",
       "canal": "Email",
       "estado": "Contactado",
-      "nextStep": "Follow-up esta semana"
+      "nextStep": "Seguimiento pendiente"
     },
     {
       "fecha": "2026-05-13",
@@ -50,7 +50,7 @@
       "referido": "Begoña (Salino)",
       "canal": "Email",
       "estado": "Contactado",
-      "nextStep": "Follow-up esta semana"
+      "nextStep": "Seguimiento pendiente"
     },
     {
       "fecha": "2026-05-13",
@@ -60,7 +60,7 @@
       "referido": "Paco sumiller (Pozuelo)",
       "canal": "Email",
       "estado": "Contactado",
-      "nextStep": "Follow-up esta semana"
+      "nextStep": "Seguimiento pendiente"
     },
     {
       "fecha": "2026-05-13",
@@ -70,7 +70,57 @@
       "referido": "Llamada telefónica",
       "canal": "Email",
       "estado": "Contactado",
-      "nextStep": "Confirmar demo esta semana · trial 1 semana sin cargo"
+      "nextStep": "Seguimiento pendiente"
+    },
+    {
+      "fecha": "2026-05-18",
+      "contacto": "Juan Carlos",
+      "local": "Grupo Pescador",
+      "grupo": null,
+      "referido": "—",
+      "canal": "Reunión presencial",
+      "estado": "Demo agendada",
+      "nextStep": "Preparar demo"
+    },
+    {
+      "fecha": "2026-05-18",
+      "contacto": "Juan Carlos",
+      "local": "Caña Golf",
+      "grupo": null,
+      "referido": "Europastry",
+      "canal": "Presencial",
+      "estado": "Demo agendada",
+      "nextStep": "Preparar demo"
+    },
+    {
+      "fecha": "2026-05-19",
+      "contacto": "Marina",
+      "local": "Secret",
+      "grupo": null,
+      "referido": "—",
+      "canal": "—",
+      "estado": "Reunión agendada",
+      "nextStep": "Preparar reunión"
+    },
+    {
+      "fecha": "2026-05-13",
+      "contacto": "Ernesto",
+      "local": "Mercado San Cristóbal",
+      "grupo": null,
+      "referido": "Visita en persona",
+      "canal": "Email",
+      "estado": "Interesado — proponer prueba 1 semana",
+      "nextStep": "Acordar fecha de prueba"
+    },
+    {
+      "fecha": "2026-05-19",
+      "contacto": "Ernesto",
+      "local": "Sisapo",
+      "grupo": null,
+      "referido": "—",
+      "canal": "Reunión presencial",
+      "estado": "Reunión agendada jue 21 mayo 11:30",
+      "nextStep": "Preparar reunión"
     }
   ]
 }
