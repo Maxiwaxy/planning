@@ -12,7 +12,7 @@
         {"title": "Follow-up David — Divina Dolores", "area": "chill-it", "status": "pendiente", "note": "Sin respuesta"},
         {"title": "Visita Andrea — Pulccinella (8 locales)", "area": "chill-it", "status": "completado", "note": "No estaba — suele estar ~12:30 en Caleido"},
         {"title": "Reactivar Javier — Copa de Balón (4 locales)", "area": "chill-it", "status": "pendiente", "note": "Sin respuesta — follow-up mañana si sigue sin contestar"},
-        {"title": "Reunión Juan Carlos — Caña Golf + Grupo Pescador", "area": "chill-it", "status": "completado", "note": "Fue bien — demos agendadas esta semana"}
+        {"title": "Reunión Juan Carlos — Cana Golf + Grupo Pescador", "area": "chill-it", "status": "completado", "note": "Fue bien — demos agendadas esta semana"}
       ]
     },
     {
@@ -29,8 +29,8 @@
       "date": "2026-05-20",
       "label": "Miércoles 20",
       "tasks": [
-        {"title": "Entrega máquina muestra — Caña Golf 10:30", "area": "chill-it", "status": "completado", "note": "Entrega máquina de muestra"},
-        {"title": "Demo Caña Golf 16:00", "area": "chill-it", "status": "completado", "note": "Semana de prueba iniciada — cierre abierto"},
+        {"title": "Entrega máquina muestra — Cana Golf 10:30", "area": "chill-it", "status": "completado", "note": "Entrega máquina de muestra"},
+        {"title": "Demo Cana Golf 16:00", "area": "chill-it", "status": "completado", "note": "Semana de prueba iniciada — cierre abierto"},
         {"title": "Buscar a Andrea — Pulccinella", "area": "chill-it", "status": "pendiente", "note": "Si paso por Caleido — suele estar ~12:30"},
         {"title": "Revisar candidatas demo MEXC", "area": "trading", "status": "pendiente", "note": "S1-Donchian BTC · S9-MeanRev BTC · S6-DonchTAO · S4-BBSqueeze TAO"}
       ]
