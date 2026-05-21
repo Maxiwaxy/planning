@@ -141,6 +141,16 @@
       "canal": "Visita en oficina",
       "estado": "Visita vie 22 mayo 11:30 — demo inicio lun 25",
       "nextStep": "Seguimiento pendiente"
+    },
+    {
+      "fecha": "2026-05-21",
+      "contacto": "José Antonio",
+      "local": "Café Pino",
+      "grupo": null,
+      "referido": "Visita en persona",
+      "canal": "Email",
+      "estado": "Email enviado",
+      "nextStep": "Seguimiento pendiente"
     }
   ]
 }
