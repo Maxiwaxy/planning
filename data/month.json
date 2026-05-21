@@ -47,6 +47,7 @@
     {"date": "2026-05-22", "label": "Viernes 22",  "tasks": [
       {"title": "Reunión Juan Carlos + Nico — Grupo Pescador 10:30", "area": "chill-it", "status": "pendiente", "note": "Revisión prueba de máquina"},
       {"title": "Jose — Grupo Raza visita oficina 11:30", "area": "chill-it", "status": "pendiente", "note": "Ver máquina — demo inicio lunes 25"},
+      {"title": "Reunión IT 15:00", "area": "admin", "status": "pendiente", "note": ""},
       {"title": "Números descuento volumen — Secret", "area": "chill-it", "status": "pendiente", "note": "Llevar oferta escalonada para reunión lun 25 con Marina"},
       {"title": "Preparar onboarding Benja", "area": "chill-it", "status": "pendiente", "note": "Incorporación 26/05 — zona, KPIs, primera semana"}
     ]},
