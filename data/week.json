@@ -29,8 +29,8 @@
       "date": "2026-05-20",
       "label": "Miércoles 20",
       "tasks": [
-        {"title": "Entrega máquina muestra — Caña Golf 10:30", "area": "chill-it", "status": "pendiente", "note": "Entrega máquina de muestra"},
-        {"title": "Demo Caña Golf 16:00", "area": "chill-it", "status": "pendiente", "note": "Reunión demostración funcionamiento"},
+        {"title": "Entrega máquina muestra — Caña Golf 10:30", "area": "chill-it", "status": "completado", "note": "Entrega máquina de muestra"},
+        {"title": "Demo Caña Golf 16:00", "area": "chill-it", "status": "completado", "note": "Semana de prueba iniciada — cierre abierto"},
         {"title": "Buscar a Andrea — Pulccinella", "area": "chill-it", "status": "pendiente", "note": "Si paso por Caleido — suele estar ~12:30"},
         {"title": "Revisar candidatas demo MEXC", "area": "trading", "status": "pendiente", "note": "S1-Donchian BTC · S9-MeanRev BTC · S6-DonchTAO · S4-BBSqueeze TAO"}
       ]
