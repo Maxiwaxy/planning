@@ -42,6 +42,7 @@
       {"title": "Visita Grupo Azador Gonzabal", "area": "chill-it", "status": "pendiente", "note": "Lead nuevo — primera visita"},
       {"title": "Visita Valentín — Grupo Azotea / El Campero", "area": "chill-it", "status": "pendiente", "note": "Objeciones: condensación en botella y cambio de boquilla"},
       {"title": "Preguntar a Nico: coche comerciales + tarjetas", "area": "chill-it", "status": "pendiente", "note": ""},
+      {"title": "Email enviado — Café Pino (José Antonio)", "area": "chill-it", "status": "hecho", "note": "Lead nuevo — esperar respuesta"},
       {"title": "Configurar demo bot en BloFin", "area": "trading", "status": "pendiente", "note": "demo-trading-openapi.blofin.com"}
     ]},
     {"date": "2026-05-22", "label": "Viernes 22",  "tasks": [
