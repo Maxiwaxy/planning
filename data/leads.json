@@ -119,8 +119,8 @@
       "grupo": null,
       "referido": "—",
       "canal": "Reunión presencial",
-      "estado": "Reunión agendada jue 21 mayo 11:30",
-      "nextStep": "Preparar reunión"
+      "estado": "Demo 1 semana — entrega máquina mar 26 mayo",
+      "nextStep": "Seguimiento pendiente"
     },
     {
       "fecha": "2026-05-21",
@@ -130,6 +130,16 @@
       "referido": "—",
       "canal": "Visita en persona",
       "estado": "Visita hoy jue 21 mayo",
+      "nextStep": "Seguimiento pendiente"
+    },
+    {
+      "fecha": "2026-05-21",
+      "contacto": "Jose",
+      "local": "Grupo Raza",
+      "grupo": null,
+      "referido": "—",
+      "canal": "Visita en oficina",
+      "estado": "Visita vie 22 mayo 11:30 — demo inicio lun 25",
       "nextStep": "Seguimiento pendiente"
     }
   ]
