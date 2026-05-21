@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-19",
+  "updatedAt": "2026-05-21",
   "machinesInstalled": 0,
   "leads": [
     {
@@ -70,7 +70,7 @@
       "referido": "Llamada telefónica",
       "canal": "Email",
       "estado": "Contactado",
-      "nextStep": "Seguimiento pendiente"
+      "nextStep": "Visita hoy jue 21 mayo — confirmar demo"
     },
     {
       "fecha": "2026-05-18",
@@ -86,11 +86,11 @@
       "fecha": "2026-05-18",
       "contacto": "Juan Carlos",
       "local": "Caña Golf",
-      "grupo": null,
+      "grupo": "club de golf Montecarmelo + varios locales",
       "referido": "Europastry",
       "canal": "Presencial",
-      "estado": "Demo agendada",
-      "nextStep": "Preparar demo"
+      "estado": "Semana de prueba — cierre abierto",
+      "nextStep": "Seguimiento al cierre esta semana"
     },
     {
       "fecha": "2026-05-19",
@@ -121,6 +121,16 @@
       "canal": "Reunión presencial",
       "estado": "Reunión agendada jue 21 mayo 11:30",
       "nextStep": "Preparar reunión"
+    },
+    {
+      "fecha": "2026-05-21",
+      "contacto": "—",
+      "local": "Grupo Azador Gonzabal",
+      "grupo": null,
+      "referido": "—",
+      "canal": "Visita en persona",
+      "estado": "Identificado",
+      "nextStep": "Visita hoy jue 21 mayo"
     }
   ]
 }
