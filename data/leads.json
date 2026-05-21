@@ -19,8 +19,8 @@
       "grupo": "8 locales",
       "referido": "Moha — Aceites Únicos",
       "canal": "WhatsApp",
-      "estado": "Contactado — visita fallida (suele estar ~12:30 en Caleido)",
-      "nextStep": "Reintentar visita presencial"
+      "estado": "Respondió 20 mayo — reunión pendiente de agendar",
+      "nextStep": "Seguimiento pendiente"
     },
     {
       "fecha": "2026-05-12",
@@ -70,7 +70,7 @@
       "referido": "Llamada telefónica",
       "canal": "Email",
       "estado": "Contactado",
-      "nextStep": "Visita hoy jue 21 mayo — confirmar demo"
+      "nextStep": "Seguimiento pendiente"
     },
     {
       "fecha": "2026-05-18",
@@ -85,12 +85,12 @@
     {
       "fecha": "2026-05-18",
       "contacto": "Juan Carlos",
-      "local": "Caña Golf",
-      "grupo": "club de golf Montecarmelo + varios locales",
+      "local": "Cana Golf",
+      "grupo": null,
       "referido": "Europastry",
       "canal": "Presencial",
-      "estado": "Semana de prueba — cierre abierto",
-      "nextStep": "Seguimiento al cierre esta semana"
+      "estado": "Semana de prueba iniciada 20 mayo — cierre abierto",
+      "nextStep": "Seguimiento pendiente"
     },
     {
       "fecha": "2026-05-19",
@@ -129,8 +129,8 @@
       "grupo": null,
       "referido": "—",
       "canal": "Visita en persona",
-      "estado": "Identificado",
-      "nextStep": "Visita hoy jue 21 mayo"
+      "estado": "Visita hoy jue 21 mayo",
+      "nextStep": "Seguimiento pendiente"
     }
   ]
 }
