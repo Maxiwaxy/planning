@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Planning Semanal — Max</title>
+  <title>Planning — Max</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { background: #0d0d0d; color: #e0e0e0; font-family: 'Courier New', monospace; font-size: 14px; }
@@ -11,7 +11,7 @@
     header { padding: 20px 24px 0; border-bottom: 1px solid #222; }
     .header-top { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 16px; }
     header h1 { font-size: 18px; color: #fff; letter-spacing: 1px; }
-    .week-label { font-size: 11px; color: #555; margin-top: 4px; }
+    .month-label { font-size: 11px; color: #555; margin-top: 4px; }
 
     .tabs { display: flex; }
     .tab { padding: 10px 20px; font-size: 12px; color: #555; cursor: pointer; border-bottom: 2px solid transparent; text-transform: uppercase; letter-spacing: 1px; user-select: none; }
@@ -20,15 +20,23 @@
     .panel { display: none; padding: 20px 24px 32px; }
     .panel.active { display: block; }
 
-    .kpi-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 16px; }
+    .kpi-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 20px; }
     .kpi-card { background: #141414; border: 1px solid #222; border-radius: 6px; padding: 14px 16px; }
     .kpi-value { font-size: 24px; font-weight: bold; color: #fff; }
     .kpi-label { font-size: 10px; color: #555; margin-top: 3px; text-transform: uppercase; letter-spacing: 0.5px; }
 
-    .days-list { display: flex; flex-direction: column; gap: 10px; }
+    .week-separator { display: flex; align-items: center; gap: 10px; padding: 20px 2px 8px; }
+    .week-separator:first-child { padding-top: 0; }
+    .week-num { font-size: 10px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; color: #333; }
+    .week-range { font-size: 10px; color: #2a2a2a; }
+    .week-separator.current .week-num { color: #22c55e; }
+    .week-separator.current .week-range { color: #3a3a3a; }
+
+    .days-list { display: flex; flex-direction: column; gap: 8px; }
 
     .day-card { background: #141414; border: 1px solid #222; border-radius: 6px; overflow: hidden; }
     .day-card.today { border-color: #22c55e44; }
+    .day-card.past { opacity: 0.45; }
     .day-header { display: flex; justify-content: space-between; align-items: center; padding: 10px 16px; border-bottom: 1px solid #1a1a1a; }
     .day-label { font-size: 12px; color: #fff; font-weight: bold; letter-spacing: 0.5px; }
     .day-label.today-label { color: #22c55e; }
@@ -43,12 +51,12 @@
     .task { display: flex; align-items: flex-start; gap: 10px; padding: 9px 16px; border-bottom: 1px solid #1a1a1a; }
     .task:last-child { border-bottom: none; }
     .task-dot { width: 7px; height: 7px; border-radius: 50%; margin-top: 4px; flex-shrink: 0; }
-    .dot-pendiente { background: #333; }
-    .dot-en-curso  { background: #f59e0b; animation: pulse 2s infinite; }
-    .dot-hecho     { background: #22c55e; }
+    .dot-pendiente  { background: #333; }
+    .dot-en-curso   { background: #f59e0b; animation: pulse 2s infinite; }
+    .dot-hecho      { background: #22c55e; }
     @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
     .task-title { font-size: 12px; line-height: 1.5; color: #e0e0e0; }
-    .task-title.hecho { color: #444; text-decoration: line-through; }
+    .task-title.done { color: #444; text-decoration: line-through; }
     .task-note { font-size: 10px; color: #444; margin-top: 2px; }
     .area-tag { display: inline-block; font-size: 9px; padding: 1px 6px; border-radius: 2px; margin-top: 3px; font-weight: bold; }
     .tag-chill-it { background: #1a1a2e; color: #6366f1; }
@@ -67,14 +75,16 @@
     .local-group { font-size: 10px; color: #555; margin-top: 2px; }
     .next-step { font-size: 11px; color: #555; }
 
-    .badge { display: inline-block; padding: 2px 8px; border-radius: 3px; font-size: 10px; font-weight: bold; }
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 3px; font-size: 10px; font-weight: bold; white-space: nowrap; }
     .badge-contactado  { background: #1a1a2e; color: #6366f1; }
     .badge-respondio   { background: #0d2d1a; color: #22c55e; }
     .badge-reunion     { background: #1a2d0d; color: #84cc16; }
     .badge-demo        { background: #2d1a0d; color: #f59e0b; }
+    .badge-prueba      { background: #2d200d; color: #fb923c; }
     .badge-negociacion { background: #2d1a1a; color: #ef4444; }
     .badge-cerrado     { background: #0d2d0d; color: #22c55e; }
     .badge-descartado  { background: #1a1a1a; color: #444; }
+    .badge-default     { background: #1a1a1a; color: #666; }
 
     /* Meta bar */
     .meta-card { margin-top: 12px; }
@@ -88,7 +98,6 @@
     .footer { padding: 0 24px 24px; font-size: 10px; color: #2a2a2a; text-align: right; }
 
     @media (max-width: 600px) {
-      .area-grid  { grid-template-columns: 1fr; }
       .kpi-strip  { grid-template-columns: 1fr 1fr; }
       .panel      { padding: 16px 16px 24px; }
       header      { padding: 16px 16px 0; }
@@ -101,18 +110,18 @@
 <header>
   <div class="header-top">
     <div>
-      <h1>Planning Semanal</h1>
-      <div class="week-label" id="weekLabel">—</div>
+      <h1>Planning</h1>
+      <div class="month-label" id="monthLabel">—</div>
     </div>
     <div style="font-size:10px; color:#333; text-align:right; margin-top:4px;" id="headerMeta"></div>
   </div>
   <div class="tabs">
-    <div class="tab active" onclick="switchTab('semana')">Semana</div>
+    <div class="tab active" onclick="switchTab('semana')">Mes</div>
     <div class="tab" onclick="switchTab('leads')">Leads</div>
   </div>
 </header>
 
-<!-- SEMANA -->
+<!-- MES -->
 <div class="panel active" id="panel-semana">
   <div class="kpi-strip" id="kpiStrip"></div>
   <div class="days-list" id="daysList"></div>
@@ -165,7 +174,7 @@
 <div class="footer" id="footerUpdate"></div>
 
 <script>
-const WEEK_URL  = 'data/week.json';
+const MONTH_URL = 'data/month.json';
 const LEADS_URL = 'data/leads.json';
 
 function switchTab(name) {
@@ -182,24 +191,42 @@ const AREA_TAG = {
   'admin':    { label: 'Admin',    cls: 'tag-admin'    },
 };
 
-const LEAD_BADGE = {
-  'Contactado':  'badge-contactado',
-  'Respondió':   'badge-respondio',
-  'Reunión':     'badge-reunion',
-  'Demo':        'badge-demo',
-  'Negociación': 'badge-negociacion',
-  'Cerrado':     'badge-cerrado',
-  'Descartado':  'badge-descartado',
-};
+function getISOWeek(dateStr) {
+  const d = new Date(dateStr + 'T12:00:00');
+  const day = d.getDay() || 7;
+  d.setDate(d.getDate() + 4 - day);
+  const yearStart = new Date(d.getFullYear(), 0, 1);
+  return Math.ceil((((d - yearStart) / 86400000) + 1) / 7);
+}
 
-async function loadWeek() {
-  const data = await fetch(WEEK_URL + '?t=' + Date.now()).then(r => r.json());
+function fmtShort(dateStr) {
+  return new Date(dateStr + 'T12:00:00').toLocaleDateString('es-ES', { day: 'numeric', month: 'short' });
+}
 
-  document.getElementById('weekLabel').textContent = data.week + ' · ' + data.dates;
+function badgeClass(estado) {
+  const s = estado.toLowerCase();
+  if (s.includes('prueba') || s.includes('demo')) return 'badge-prueba';
+  if (s.includes('cerrado')) return 'badge-cerrado';
+  if (s.includes('negociaci')) return 'badge-negociacion';
+  if (s.includes('reuni')) return 'badge-reunion';
+  if (s.includes('respond')) return 'badge-respondio';
+  if (s.includes('contactado')) return 'badge-contactado';
+  if (s.includes('descartado')) return 'badge-descartado';
+  return 'badge-default';
+}
+
+async function loadMonth() {
+  const data = await fetch(MONTH_URL + '?t=' + Date.now()).then(r => r.json());
+
+  document.getElementById('monthLabel').textContent = data.month;
 
   const today = new Date().toISOString().slice(0, 10);
+  const currentWeek = getISOWeek(today);
+
+  // KPIs: tareas de la semana actual
   let total = 0, done = 0, inProgress = 0;
   for (const day of data.days) {
+    if (getISOWeek(day.date) !== currentWeek) continue;
     for (const t of day.tasks) {
       total++;
       if (t.status === 'hecho')    done++;
@@ -208,41 +235,73 @@ async function loadWeek() {
   }
 
   document.getElementById('kpiStrip').innerHTML = `
-    <div class="kpi-card"><div class="kpi-value">${total}</div><div class="kpi-label">Tareas</div></div>
+    <div class="kpi-card"><div class="kpi-value">${total}</div><div class="kpi-label">Esta semana</div></div>
     <div class="kpi-card"><div class="kpi-value" style="color:#22c55e">${done}</div><div class="kpi-label">Completadas</div></div>
     <div class="kpi-card"><div class="kpi-value" style="color:#f59e0b">${inProgress}</div><div class="kpi-label">En curso</div></div>
     <div class="kpi-card"><div class="kpi-value" style="color:#555">${total - done - inProgress}</div><div class="kpi-label">Pendientes</div></div>
   `;
 
+  // Agrupar por semana ISO
+  const weeks = new Map();
+  for (const day of data.days) {
+    const w = getISOWeek(day.date);
+    if (!weeks.has(w)) weeks.set(w, []);
+    weeks.get(w).push(day);
+  }
+
   const list = document.getElementById('daysList');
   list.innerHTML = '';
-  for (const day of data.days) {
-    const isToday = day.date === today;
-    const doneN = day.tasks.filter(t => t.status === 'hecho').length;
+
+  for (const [weekNum, days] of weeks) {
+    const isCurrent = weekNum === currentWeek;
+    const isPastWeek = weekNum < currentWeek;
+
+    // Omitir semanas pasadas sin ninguna tarea
+    const weekHasTasks = days.some(d => d.tasks.length > 0);
+    if (isPastWeek && !weekHasTasks) continue;
+
+    const rangeLabel = fmtShort(days[0].date) + ' – ' + fmtShort(days[days.length - 1].date);
     list.innerHTML += `
-      <div class="day-card ${isToday ? 'today' : ''}">
-        <div class="day-header">
-          <span class="day-label ${isToday ? 'today-label' : ''}">${isToday ? '▸ ' : ''}${day.label}</span>
-          <span class="day-count">${doneN}/${day.tasks.length}</span>
-        </div>
-        <div class="day-tasks">
-          ${day.tasks.length === 0
-            ? '<div class="empty">Sin tareas</div>'
-            : day.tasks.map(t => {
-                const tag = AREA_TAG[t.area] || { label: t.area, cls: '' };
-                return `
-                <div class="task">
-                  <div class="task-dot dot-${t.status}"></div>
-                  <div>
-                    <div class="task-title ${t.status === 'hecho' ? 'hecho' : ''}">${t.title}</div>
-                    ${t.note ? `<div class="task-note">${t.note}</div>` : ''}
-                    <span class="area-tag ${tag.cls}">${tag.label}</span>
-                  </div>
-                </div>`;
-              }).join('')
-          }
-        </div>
+      <div class="week-separator ${isCurrent ? 'current' : isPastWeek ? 'past' : ''}">
+        <span class="week-num">W${weekNum}</span>
+        <span class="week-range">${rangeLabel}</span>
       </div>`;
+
+    for (const day of days) {
+      const isToday = day.date === today;
+      const isPast  = day.date < today;
+
+      // Omitir días pasados sin tareas
+      if (isPast && !isToday && day.tasks.length === 0) continue;
+
+      const doneN = day.tasks.filter(t => t.status === 'hecho').length;
+
+      list.innerHTML += `
+        <div class="day-card ${isToday ? 'today' : ''} ${isPast && !isToday ? 'past' : ''}">
+          <div class="day-header">
+            <span class="day-label ${isToday ? 'today-label' : ''}">${isToday ? '▸ ' : ''}${day.label}</span>
+            <span class="day-count">${day.tasks.length ? doneN + '/' + day.tasks.length : ''}</span>
+          </div>
+          <div class="day-tasks">
+            ${day.tasks.length === 0
+              ? '<div class="empty">Sin tareas</div>'
+              : day.tasks.map(t => {
+                  const tag = AREA_TAG[t.area] || { label: t.area, cls: '' };
+                  const isDone = t.status === 'hecho';
+                  return `
+                  <div class="task">
+                    <div class="task-dot dot-${t.status}"></div>
+                    <div>
+                      <div class="task-title ${isDone ? 'done' : ''}">${t.title}</div>
+                      ${t.note ? `<div class="task-note">${t.note}</div>` : ''}
+                      <span class="area-tag ${tag.cls}">${tag.label}</span>
+                    </div>
+                  </div>`;
+                }).join('')
+            }
+          </div>
+        </div>`;
+    }
   }
 
   document.getElementById('footerUpdate').textContent = 'Actualizado: ' + data.updatedAt;
@@ -260,7 +319,7 @@ async function loadLeads() {
         <div>${l.local}</div>
         ${l.grupo ? `<div class="local-group">${l.grupo}</div>` : ''}
       </td>
-      <td><span class="badge ${LEAD_BADGE[l.estado] || ''}">${l.estado}</span></td>
+      <td><span class="badge ${badgeClass(l.estado)}">${l.estado}</span></td>
       <td style="color:#555; font-size:11px;">${l.referido || '—'}</td>
       <td><div class="next-step">${l.nextStep || '—'}</div></td>
     </tr>`).join('');
@@ -272,7 +331,7 @@ async function loadLeads() {
   document.getElementById('metaPct').textContent = pct + '% de la meta';
 }
 
-Promise.all([loadWeek(), loadLeads()]);
+Promise.all([loadMonth(), loadLeads()]);
 </script>
 </body>
 </html>
