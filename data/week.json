@@ -41,7 +41,10 @@
       "tasks": [
         {"title": "Reunión Ernesto — Sisapo 11:30", "area": "chill-it", "status": "pendiente", "note": "Primera reunión"},
         {"title": "Instalación máquina prueba — Grupo Pescador", "area": "chill-it", "status": "pendiente", "note": "Coordinar con Fran"},
-        {"title": "Follow-ups Salvaje, Copa de Balón, Cachivache", "area": "chill-it", "status": "pendiente", "note": "Si no responden hoy, preparar correos"},
+        {"title": "Visita Zohra — Grupo Salvaje", "area": "chill-it", "status": "pendiente", "note": "Demo pendiente de confirmar"},
+        {"title": "Visita Grupo Azador Gonzabal", "area": "chill-it", "status": "pendiente", "note": "Lead nuevo — primera visita"},
+        {"title": "Visita Valentín — Grupo Azotea / El Campero", "area": "chill-it", "status": "pendiente", "note": "Objeciones: condensación en botella y cambio de boquilla"},
+        {"title": "Preguntar a Nico: coche comerciales + tarjetas", "area": "chill-it", "status": "pendiente", "note": ""},
         {"title": "Configurar demo bot en BloFin", "area": "trading", "status": "pendiente", "note": "demo-trading-openapi.blofin.com"}
       ]
     },
