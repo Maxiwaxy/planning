@@ -1,78 +1,358 @@
 {
   "month": "Mayo 2026",
-  "updatedAt": "2026-05-21",
+  "updatedAt": "2026-05-22",
   "days": [
-    {"date": "2026-05-01", "label": "Viernes 1",   "tasks": []},
-    {"date": "2026-05-02", "label": "Sábado 2",    "tasks": []},
-    {"date": "2026-05-03", "label": "Domingo 3",   "tasks": []},
-    {"date": "2026-05-04", "label": "Lunes 4",     "tasks": []},
-    {"date": "2026-05-05", "label": "Martes 5",    "tasks": []},
-    {"date": "2026-05-06", "label": "Miércoles 6", "tasks": []},
-    {"date": "2026-05-07", "label": "Jueves 7",    "tasks": []},
-    {"date": "2026-05-08", "label": "Viernes 8",   "tasks": []},
-    {"date": "2026-05-09", "label": "Sábado 9",    "tasks": []},
-    {"date": "2026-05-10", "label": "Domingo 10",  "tasks": []},
-    {"date": "2026-05-11", "label": "Lunes 11",    "tasks": [
-      {"title": "Inicio en Chill It", "area": "chill-it", "status": "hecho", "note": "Primer día"}
-    ]},
-    {"date": "2026-05-12", "label": "Martes 12",   "tasks": []},
-    {"date": "2026-05-13", "label": "Miércoles 13","tasks": []},
-    {"date": "2026-05-14", "label": "Jueves 14",   "tasks": []},
-    {"date": "2026-05-15", "label": "Viernes 15",  "tasks": []},
-    {"date": "2026-05-16", "label": "Sábado 16",   "tasks": []},
-    {"date": "2026-05-17", "label": "Domingo 17",  "tasks": []},
-    {"date": "2026-05-18", "label": "Lunes 18",    "tasks": [
-      {"title": "Reunión Juan Carlos — Cana Golf + Grupo Pescador", "area": "chill-it", "status": "hecho", "note": "Fue bien — demos agendadas esta semana"},
-      {"title": "Visita Andrea — Pulccinella (8 locales)", "area": "chill-it", "status": "hecho", "note": "No estaba — suele estar ~12:30 en Caleido"},
-      {"title": "Follow-up Paco, Alberto, David", "area": "chill-it", "status": "pendiente", "note": "Cachivache · Copa de Balón · Divina Dolores — sin respuesta"}
-    ]},
-    {"date": "2026-05-19", "label": "Martes 19",   "tasks": [
-      {"title": "Follow-up Elvis — Barbillon", "area": "chill-it", "status": "hecho", "note": "Correo enviado — ofrecida demo en local"},
-      {"title": "Nuevo lead: Marina — Secret (7 locales)", "area": "chill-it", "status": "hecho", "note": "3 Madrid + 4 Barcelona — reunión lun 25 a las 11:00"},
-      {"title": "Correo Ernesto — Mercado San Cristóbal", "area": "chill-it", "status": "hecho", "note": "Propuesta prueba 1 semana enviada"}
-    ]},
-    {"date": "2026-05-20", "label": "Miércoles 20","tasks": [
-      {"title": "Entrega + demo Cana Golf", "area": "chill-it", "status": "hecho", "note": "Semana de prueba iniciada — cierre abierto"},
-      {"title": "Revisar candidatas demo MEXC", "area": "trading", "status": "pendiente", "note": "S1-Donchian BTC · S9-MeanRev BTC · S6-DonchTAO · S4-BBSqueeze TAO"}
-    ]},
-    {"date": "2026-05-21", "label": "Jueves 21",   "tasks": [
-      {"title": "Reunión Ernesto — Sisapo 11:30", "area": "chill-it", "status": "pendiente", "note": "Primera reunión"},
-      {"title": "Instalación máquina prueba — Grupo Pescador", "area": "chill-it", "status": "pendiente", "note": "Coordinar con Fran"},
-      {"title": "Visita Zohra — Grupo Salvaje", "area": "chill-it", "status": "pendiente", "note": "Demo pendiente de confirmar"},
-      {"title": "Visita Grupo Azador Gonzabal", "area": "chill-it", "status": "pendiente", "note": "Lead nuevo — primera visita"},
-      {"title": "Visita Valentín — Grupo Azotea / El Campero", "area": "chill-it", "status": "pendiente", "note": "Objeciones: condensación en botella y cambio de boquilla"},
-      {"title": "Preguntar a Nico: coche comerciales + tarjetas", "area": "chill-it", "status": "pendiente", "note": ""},
-      {"title": "Email enviado — Café Pino (José Antonio)", "area": "chill-it", "status": "hecho", "note": "Lead nuevo — esperar respuesta"},
-      {"title": "Configurar demo bot en BloFin", "area": "trading", "status": "pendiente", "note": "demo-trading-openapi.blofin.com"}
-    ]},
-    {"date": "2026-05-22", "label": "Viernes 22",  "tasks": [
-      {"title": "Reunión Juan Carlos + Nico — Grupo Pescador 10:30", "area": "chill-it", "status": "pendiente", "note": "Revisión prueba de máquina"},
-      {"title": "Jose — Grupo Raza visita oficina 11:30", "area": "chill-it", "status": "pendiente", "note": "Ver máquina — demo inicio lunes 25"},
-      {"title": "Reunión IT 15:00", "area": "admin", "status": "pendiente", "note": ""},
-      {"title": "Números descuento volumen — Secret", "area": "chill-it", "status": "pendiente", "note": "Llevar oferta escalonada para reunión lun 25 con Marina"},
-      {"title": "Preparar onboarding Benja", "area": "chill-it", "status": "pendiente", "note": "Incorporación 26/05 — zona, KPIs, primera semana"}
-    ]},
-    {"date": "2026-05-23", "label": "Sábado 23",   "tasks": [
-      {"title": "Entrenamiento", "area": "personal", "status": "pendiente", "note": "Retomar rutina · objetivo -7 kg"}
-    ]},
-    {"date": "2026-05-24", "label": "Domingo 24",  "tasks": [
-      {"title": "Cierre semanal W21", "area": "admin", "status": "pendiente", "note": "Revisión avance + planning W22"}
-    ]},
-    {"date": "2026-05-25", "label": "Lunes 25",    "tasks": [
-      {"title": "Médico Valentín 09:30", "area": "personal", "status": "pendiente", "note": "Reagendado — médico estaba en huelga"},
-      {"title": "Reunión Marina — Secret 11:00", "area": "chill-it", "status": "pendiente", "note": "Secrets Caleido — 3 Madrid + 4 Barcelona"},
-      {"title": "Inicio demo Grupo Raza (Jose)", "area": "chill-it", "status": "pendiente", "note": "Demo 1 semana"}
-    ]},
-    {"date": "2026-05-26", "label": "Martes 26",   "tasks": [
-      {"title": "Entrega máquina — Sisapo (demo 1 semana)", "area": "chill-it", "status": "pendiente", "note": "Coordinar entrega con Fran"},
-      {"title": "Onboarding Benja", "area": "chill-it", "status": "pendiente", "note": "Primer día — zona, KPIs, dinámica de la semana"}
-    ]},
-    {"date": "2026-05-27", "label": "Miércoles 27","tasks": []},
-    {"date": "2026-05-28", "label": "Jueves 28",   "tasks": []},
-    {"date": "2026-05-29", "label": "Viernes 29",  "tasks": []},
-    {"date": "2026-05-30", "label": "Sábado 30",   "tasks": []},
-    {"date": "2026-05-31", "label": "Domingo 31",  "tasks": [
-      {"title": "Cierre mensual mayo", "area": "admin", "status": "pendiente", "note": "Revisión avance meta 315 máquinas + balance financiero"}
-    ]}
+    {
+      "date": "2026-05-01",
+      "label": "Viernes 1",
+      "tasks": []
+    },
+    {
+      "date": "2026-05-02",
+      "label": "Sábado 2",
+      "tasks": []
+    },
+    {
+      "date": "2026-05-03",
+      "label": "Domingo 3",
+      "tasks": []
+    },
+    {
+      "date": "2026-05-04",
+      "label": "Lunes 4",
+      "tasks": []
+    },
+    {
+      "date": "2026-05-05",
+      "label": "Martes 5",
+      "tasks": []
+    },
+    {
+      "date": "2026-05-06",
+      "label": "Miércoles 6",
+      "tasks": []
+    },
+    {
+      "date": "2026-05-07",
+      "label": "Jueves 7",
+      "tasks": []
+    },
+    {
+      "date": "2026-05-08",
+      "label": "Viernes 8",
+      "tasks": []
+    },
+    {
+      "date": "2026-05-09",
+      "label": "Sábado 9",
+      "tasks": []
+    },
+    {
+      "date": "2026-05-10",
+      "label": "Domingo 10",
+      "tasks": []
+    },
+    {
+      "date": "2026-05-11",
+      "label": "Lunes 11",
+      "tasks": [
+        {
+          "title": "Inicio en Chill It",
+          "area": "chill-it",
+          "status": "hecho",
+          "note": "Primer día"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "label": "Martes 12",
+      "tasks": []
+    },
+    {
+      "date": "2026-05-13",
+      "label": "Miércoles 13",
+      "tasks": []
+    },
+    {
+      "date": "2026-05-14",
+      "label": "Jueves 14",
+      "tasks": []
+    },
+    {
+      "date": "2026-05-15",
+      "label": "Viernes 15",
+      "tasks": []
+    },
+    {
+      "date": "2026-05-16",
+      "label": "Sábado 16",
+      "tasks": []
+    },
+    {
+      "date": "2026-05-17",
+      "label": "Domingo 17",
+      "tasks": []
+    },
+    {
+      "date": "2026-05-18",
+      "label": "Lunes 18",
+      "tasks": [
+        {
+          "title": "Reunión Juan Carlos — Cana Golf + Grupo Pescador",
+          "area": "chill-it",
+          "status": "hecho",
+          "note": "Fue bien — demos agendadas esta semana"
+        },
+        {
+          "title": "Visita Andrea — Pulccinella (8 locales)",
+          "area": "chill-it",
+          "status": "hecho",
+          "note": "No estaba — suele estar ~12:30 en Caleido"
+        },
+        {
+          "title": "Follow-up Paco, Alberto, David",
+          "area": "chill-it",
+          "status": "pendiente",
+          "note": "Cachivache · Copa de Balón · Divina Dolores — sin respuesta"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "label": "Martes 19",
+      "tasks": [
+        {
+          "title": "Follow-up Elvis — Barbillon",
+          "area": "chill-it",
+          "status": "hecho",
+          "note": "Correo enviado — ofrecida demo en local"
+        },
+        {
+          "title": "Nuevo lead: Marina — Secret (7 locales)",
+          "area": "chill-it",
+          "status": "hecho",
+          "note": "3 Madrid + 4 Barcelona — reunión lun 25 a las 11:00"
+        },
+        {
+          "title": "Correo Ernesto — Mercado San Cristóbal",
+          "area": "chill-it",
+          "status": "hecho",
+          "note": "Propuesta prueba 1 semana enviada"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-20",
+      "label": "Miércoles 20",
+      "tasks": [
+        {
+          "title": "Entrega + demo Cana Golf",
+          "area": "chill-it",
+          "status": "hecho",
+          "note": "Semana de prueba iniciada — cierre abierto"
+        },
+        {
+          "title": "Revisar candidatas demo MEXC",
+          "area": "trading",
+          "status": "pendiente",
+          "note": "S1-Donchian BTC · S9-MeanRev BTC · S6-DonchTAO · S4-BBSqueeze TAO"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-21",
+      "label": "Jueves 21",
+      "tasks": [
+        {
+          "title": "Reunión Ernesto — Sisapo 11:30",
+          "area": "chill-it",
+          "status": "pendiente",
+          "note": "Primera reunión"
+        },
+        {
+          "title": "Instalación máquina prueba — Grupo Pescador",
+          "area": "chill-it",
+          "status": "pendiente",
+          "note": "Coordinar con Fran"
+        },
+        {
+          "title": "Visita Zohra — Grupo Salvaje",
+          "area": "chill-it",
+          "status": "pendiente",
+          "note": "Demo pendiente de confirmar"
+        },
+        {
+          "title": "Visita Grupo Azador Gonzabal",
+          "area": "chill-it",
+          "status": "pendiente",
+          "note": "Lead nuevo — primera visita"
+        },
+        {
+          "title": "Visita Valentín — Grupo Azotea / El Campero",
+          "area": "chill-it",
+          "status": "pendiente",
+          "note": "Objeciones: condensación en botella y cambio de boquilla"
+        },
+        {
+          "title": "Preguntar a Nico: coche comerciales + tarjetas",
+          "area": "chill-it",
+          "status": "pendiente",
+          "note": ""
+        },
+        {
+          "title": "Email enviado — Café Pino (José Antonio)",
+          "area": "chill-it",
+          "status": "hecho",
+          "note": "Lead nuevo — esperar respuesta"
+        },
+        {
+          "title": "Configurar demo bot en BloFin",
+          "area": "trading",
+          "status": "pendiente",
+          "note": "demo-trading-openapi.blofin.com"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-22",
+      "label": "Viernes 22",
+      "tasks": [
+        {
+          "title": "Reunión Juan Carlos + Nico — Grupo Pescador 10:30",
+          "area": "chill-it",
+          "status": "pendiente",
+          "note": "Revisión prueba de máquina"
+        },
+        {
+          "title": "Jose — Grupo Raza visita oficina 11:30",
+          "area": "chill-it",
+          "status": "pendiente",
+          "note": "Ver máquina — demo inicio lunes 25"
+        },
+        {
+          "title": "Reunión IT 15:00",
+          "area": "admin",
+          "status": "pendiente",
+          "note": ""
+        },
+        {
+          "title": "Números descuento volumen — Secret",
+          "area": "chill-it",
+          "status": "pendiente",
+          "note": "Llevar oferta escalonada para reunión lun 25 con Marina"
+        },
+        {
+          "title": "Preparar onboarding Benja",
+          "area": "chill-it",
+          "status": "pendiente",
+          "note": "Incorporación 26/05 — zona, KPIs, primera semana"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "label": "Sábado 23",
+      "tasks": [
+        {
+          "title": "Entrenamiento",
+          "area": "personal",
+          "status": "pendiente",
+          "note": "Retomar rutina · objetivo -7 kg"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-24",
+      "label": "Domingo 24",
+      "tasks": [
+        {
+          "title": "Cierre semanal W21",
+          "area": "admin",
+          "status": "pendiente",
+          "note": "Revisión avance + planning W22"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-25",
+      "label": "Lunes 25",
+      "tasks": [
+        {
+          "title": "Llamar a Jaime — Copa de Balón (13 locales)",
+          "area": "chill-it",
+          "status": "pendiente",
+          "note": "Interesados — agendar reunión esta semana"
+        },
+        {
+          "title": "Médico Valentín 09:30",
+          "area": "personal",
+          "status": "pendiente",
+          "note": "Reagendado — médico estaba en huelga"
+        },
+        {
+          "title": "Reunión Marina — Secret 11:00",
+          "area": "chill-it",
+          "status": "pendiente",
+          "note": "Secrets Caleido — 3 Madrid + 4 Barcelona"
+        },
+        {
+          "title": "Inicio demo Grupo Raza (Jose)",
+          "area": "chill-it",
+          "status": "pendiente",
+          "note": "Demo 1 semana"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-26",
+      "label": "Martes 26",
+      "tasks": [
+        {
+          "title": "Entrega máquina — Sisapo (demo 1 semana)",
+          "area": "chill-it",
+          "status": "pendiente",
+          "note": "Coordinar entrega con Fran"
+        },
+        {
+          "title": "Onboarding Benja",
+          "area": "chill-it",
+          "status": "pendiente",
+          "note": "Primer día — zona, KPIs, dinámica de la semana"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-27",
+      "label": "Miércoles 27",
+      "tasks": []
+    },
+    {
+      "date": "2026-05-28",
+      "label": "Jueves 28",
+      "tasks": []
+    },
+    {
+      "date": "2026-05-29",
+      "label": "Viernes 29",
+      "tasks": []
+    },
+    {
+      "date": "2026-05-30",
+      "label": "Sábado 30",
+      "tasks": []
+    },
+    {
+      "date": "2026-05-31",
+      "label": "Domingo 31",
+      "tasks": [
+        {
+          "title": "Cierre mensual mayo",
+          "area": "admin",
+          "status": "pendiente",
+          "note": "Revisión avance meta 315 máquinas + balance financiero"
+        }
+      ]
+    }
   ]
 }
