@@ -1,6 +1,6 @@
 {
   "month": "Mayo 2026",
-  "updatedAt": "2026-05-22",
+  "updatedAt": "2026-05-28",
   "days": [
     {
       "date": "2026-05-01",
@@ -325,7 +325,14 @@
     {
       "date": "2026-05-27",
       "label": "Miércoles 27",
-      "tasks": []
+      "tasks": [
+        {
+          "title": "MaxHangs 85% MVC — Ciclo sem. 1/8",
+          "area": "personal",
+          "status": "hecho",
+          "note": "4/6 sets. Izq ~45 kg (99%), Der ~43 kg (92%). Entorno diferente + fatiga sistémica. Fuerza dentro de rango — no ajustar protocolo."
+        }
+      ]
     },
     {
       "date": "2026-05-28",
